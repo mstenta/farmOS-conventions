@@ -55,6 +55,12 @@ the sample(s) were collected from for easier searching/filtering purposes.
 
 - [Water test](../water-test)
 
+## Example code
+
+- [PHP](soil-test.php)
+- [Python](soil-test.py)
+- [JavaScript](soil-test.js)
+
 ## Changelog
 
 #### 2022-06-06 - v1.0 (current version)
