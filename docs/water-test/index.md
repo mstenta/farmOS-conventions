@@ -51,6 +51,10 @@ In addition to specific geometries, Lab test logs MAY also reference specific
 Land (or other) assets in the "Location" (`location`) field to indicate where
 the sample(s) were collected from for easier searching/filtering purposes.
 
+## Notable implementations
+
+...
+
 ## Related conventions
 
 - [Soil test](../soil-test)
