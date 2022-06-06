@@ -1,23 +1,23 @@
-# Soil test
+# Water test
 
 **Version 1.0**
 
 ```yml
-convention_id: "farmOS:soil-test:1.0"
+convention_id: "farmOS:water-test:1.0"
 dependencies:
   - farm:farm_lab_test
 ```
 
 ## Purpose
 
-Soil tests are used to represent the act of collecting a soil sample, sending
-it to a soil testing lab, receiving test results back, and storing data for
+Water tests are used to represent the act of collecting a water sample, sending
+it to a water testing lab, receiving test results back, and storing data for
 future reference.
 
 ## Specification
 
-Soil tests MUST be recorded as a "Lab test" (`lab_test`) log. The "Test type"
-(`lab_test_type`) field MUST be set to "Soil test" (`soil`).
+Water tests MUST be recorded as a "Lab test" (`lab_test`) log. The "Test type"
+(`lab_test_type`) field MUST be set to "Water test" (`water`).
 
 The "Timestamp" (`timestamp`) field of the log MUST be the date when the
 sample(s) were collected. The "Received date" (`lab_received_date`) field MAY
@@ -53,14 +53,14 @@ the sample(s) were collected from for easier searching/filtering purposes.
 
 ## Related conventions
 
-- [Water test](../water-test)
+- [Soil test](../soil-test)
 
 ## Changelog
 
 #### 2022-06-06 - v1.0 (current version)
 
 ```yml
-convention_id: "farmOS:soil-test:1.0"
+convention_id: "farmOS:water-test:1.0"
 dependencies:
   - farm:farm_lab_test
 ```
