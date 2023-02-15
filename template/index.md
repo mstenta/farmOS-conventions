@@ -6,6 +6,8 @@
 convention_id: "{{ namespace + slug + version, colon separated (eg: farm:my-convention:1.0) }}"
 inherits_from:
   - {{ (Optional list of convention IDs that this convention inherits from/extends }}
+related_conventions:
+  - {{ (Optional list of convention IDs that this convention is related to }}
 dependencies:
   - {{ List of farmOS module dependencies }}
 ```
